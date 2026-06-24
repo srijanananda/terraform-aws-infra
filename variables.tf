@@ -31,5 +31,5 @@ variable "ami_id" {
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t2.micro"  # Free tier eligible
+  default     = "t3.micro"  # ← change from t2.micro to t3.micro
 }
